@@ -1,0 +1,91 @@
+/*  */
+        /* width: 100%;
+      box-sizing: border-box; */
+    
+    body {
+        background-color: salmon;
+    
+    }
+
+    header {
+        background: white;
+        border: 3px;
+        border-style: solid;
+        border-width: 8px;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        
+
+    }
+
+    li.nav {
+        text-align: center;
+        margin: 30px;
+    }
+    h1{
+        text-align: center;
+    }
+
+    .right {  
+        border: 3px;
+        border-style: solid;
+        border-width: 8px;
+        margin-top: 2%;
+        margin-right: 15%;  
+        
+    }
+    .fish {
+        align-content: center;
+    }
+
+    h2{
+        background-color: white;
+        border: 3px;
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 5px;
+        -webkit-margin: border radius 5px;
+        -moz-margin: border radius 5px;
+        -ms-margin: border radius 5px;
+        -o-margin: border radius 5px;
+        margin: border radius 5px;
+        text-align: center;
+        width: 50%;
+        margin-bottom: 50px;
+        margin: auto;
+    }    
+    li {
+        display: inline;
+        margin-right: 15px;
+        
+    }
+    footer {
+       
+        margin: 50px;
+        height: 150px;
+        width: 300px;
+        border: 100px;
+        background-color: white;
+  
+    }
+.bio-paragraph{
+    text-align: center;
+}
+
+.main-content {
+    background-color: white;
+        border: 3px;
+        border-style: solid;
+        border-width: 5px;
+        border-radius: 5px;
+        -webkit-margin: border radius 5px;
+        -moz-margin: border radius 5px;
+        -ms-margin: border radius 5px;
+        -o-margin: border radius 5px;
+        margin: border radius 5px;
+        text-align: center;
+        width: 50%;
+        margin-bottom: 50px;
+        margin: auto;
+}
