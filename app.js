@@ -44,7 +44,6 @@ function CookieTable(name,minCustomer,maxCustomer,AvgCookieSale) {
   this.AvgCookieSale = AvgCookieSale;
   this.cookiePerHour = [],
   this.cookiesPerStore = 0,
-  
   salmonCookies.push(this);
 }
 
@@ -55,6 +54,8 @@ var alki = new CookieTable('Alki',2,16,4.6);
 var capitolHill = new CookieTable('Capitol Hill',20,38,2.3);
 var locations = [pike, seatac,seattleCenter,capitolHill,alki];
 console.log(salmonCookies);
+
+
 
 
 
@@ -118,7 +119,6 @@ semiEl.appendChild(trEl);
 for (var c = 0; c < 5; c++){
   var trEl2 = document.createElement('tr');
   var tdEl2 =document.createElement('td');
-  
   trEl2.textContent = locations[c].name;
   for(var d = 0; d < timeOfDay.length; d++){
     tdEl2 = document.createElement ('td');
@@ -129,7 +129,6 @@ for (var c = 0; c < 5; c++){
   var tdEl3 = document.createElement('td');
   tdEl3.textContent = locations[c].cookiesPerStore;
   trEl2.appendChild(tdEl3);
-  
   var semiEl2 = document.getElementById('salmon-table');
   semiEl2.appendChild(trEl2);
 
