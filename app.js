@@ -48,11 +48,11 @@ function CookieTable(name,minCustomer,maxCustomer,AvgCookieSale) {
   salmonCookies.push(this);
 }
 
-var pike = new CookieTable('firAndPike',23, 65,6.3);
-var seatac = new CookieTable('seatacAir',3,24,1.2);
-var seattleCenter = new CookieTable('seattleCenter',11,38,3.7);
-var alki = new CookieTable('alki',2,16,4.6);
-var capitolHill = new CookieTable('capitolHill',20,38,2.3);
+var pike = new CookieTable('First and Pike',23, 65,6.3);
+var seatac = new CookieTable('Seatac Airport',3,24,1.2);
+var seattleCenter = new CookieTable('Seattle Center',11,38,3.7);
+var alki = new CookieTable('Alki',2,16,4.6);
+var capitolHill = new CookieTable('Capitol Hill',20,38,2.3);
 var locations = [pike, seatac,seattleCenter,capitolHill,alki];
 console.log(salmonCookies);
 
