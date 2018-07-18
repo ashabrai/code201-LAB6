@@ -15,7 +15,12 @@ header {
     padding-bottom: 10px;
 }
 
-.main-content {
+table {
+    color: red;
+    border: solid 5px black;
+    background-color: blue;
+}
+/* .main-content {
     background-color: white;
         border: 3px;
         border-style: solid;
@@ -71,7 +76,7 @@ header {
         height: 350px;
         margin-bottom: 20px;
         margin: left;
-       
         text-align: center;
+        word-wrap: break-word;
     
-}
+} */
