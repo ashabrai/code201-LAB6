@@ -1,6 +1,7 @@
 
 body {
-    background-color: gray;
+    background-color: white;
+    font-display: helvetica;
 }
 
 header {
@@ -13,70 +14,19 @@ header {
     margin-bottom: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin: auto;
+
 }
 
 table {
-    color: red;
+    color: black;
     border: solid 5px black;
-    background-color: blue;
+    background-color: tan;
 }
-/* .main-content {
-    background-color: white;
-        border: 3px;
-        border-style: solid;
-        border-width: 3px;
-        border-radius: 5px;
-        width: 300px;
-        height: 350px;
-        margin-bottom: 20px;
-        margin: left;
-        
+h3 {
+    text-align: center;
 }
-
-.second-content{
-    background-color: white;
-        border: 3px;
-        border-style: solid;
-        border-width: 3px;
-        border-radius: 5px;
-        width: 300px;
-        height: 350px;
-        margin-bottom: 20px;
-        margin: left;
-}
-.third-content {
-    background-color: white;
-        border: 3px;
-        border-style: solid;
-        border-width: 3px;
-        border-radius: 5px;
-        width: 300px;
-        height: 350px;
-        margin-bottom: 20px;
-        margin: left;
-}
-.fourth-content {
-    background-color: white;
-        border: 3px;
-        border-style: solid;
-        border-width: 3px;
-        border-radius: 5px;
-        width: 300px;
-        height: 350px;
-        margin-bottom: 20px;
-        margin: left;
-}
-.fifth-content {
-    background-color: white;
-        border: 3px;
-        border-style: solid;
-        border-width: 3px;
-        border-radius: 5px;
-        width: 300px;
-        height: 350px;
-        margin-bottom: 20px;
-        margin: left;
-        text-align: center;
-        word-wrap: break-word;
-    
-} */
+.input {
+    border: 3px solid black;
+    width: 40%;
+}    
