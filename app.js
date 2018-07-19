@@ -146,107 +146,20 @@ function dataEntry(event) {
 clicked(formEl);
 
 
-//   function totalperHour(){
-//     var number = 0;
-//     console.log(timeOfDay);
-//     console.log(salmonCookies);
-//     for(var store of salmonCookies){
-//       number += salmonCookies[store].cookiePerHour[hour];
-//       console.log(total);
-//     }
-//     total.push(number);
-//     number = 0;
-    
-    
-    
-//     for(var store in salmonCookies){
-//       //console.log(cookiePerHour);
-//       console.log(salmonCookies[store].cookiePerHour[0]);
-//     for(var hour in timeofDay)  
-  
-
-//     for(var store of salmonCookies){
-//       number += salmonCookies[store].cookiePerHour[hour];
-//       console.log(total);
-//     }
-//     total.push(number);
-//     number = 0;
-//   }
-// }
-
-// totalperHour();
-
-
-
-
-// CookieTable.prototype.cats = function() {
-//   for(var i = 0; i < timeOfDay.length; i++) {
-//     var sales = Math.ceil(this.AvgCookieSale * this.random());
-//     //console.log(fishSales);
-//     this.cookiePerHour.push(sales);
-//   }
-// };
-//console.log(salmonCookies[0].cookiePerHour());
-// salmonCookies[0].cats();
-// salmonCookies[1].cats();
-// salmonCookies[2].cats();
-// salmonCookies[3].cats();
-// salmonCookies[4].cats();
-
-
-
-// CookieTable.prototype.finalTotal = function(){
-// //console.log(this.cookieTotal,'herreeeee');
-//   for(var k = 0; k < this.cookiePerHour.length; k++){
-//     this.cookiesPerStore += this.cookiePerHour[k];
-//   }
-// };
-// //console.log(salmonCookies[0].finalTotal());
-// salmonCookies[0].finalTotal();
-// salmonCookies[1].finalTotal();
-// salmonCookies[2].finalTotal();
-// salmonCookies[3].finalTotal();
-// salmonCookies[4].finalTotal();
-
-
-
-
-
-
-
-
-
-
-//this is where I started today jul 18
-
-
-//   function createTable() {
-
-//     tblEl = document.createElement('table');
-//     var trHeaderEl = document.createElement('tr');
-//     var thBlankEL = document.createElement ('th');
-//     thEl.textContent = cookiePerHour [idx];
-//     trHeaderEl.appendChild(thEl);
+// function totalperHour(){
+//   var number = 0;
+//   //console.log(timeOfDay);
+//   //console.log(salmonCookies);
+//   for(var store of salmonCookies){
+//     number += salmonCookies[store].cookiePerHour[hour];
+//     console.log(total);
 //   }
 
-//   var thTotalEl = document.createElement('th');
-//   thTotalEl.textContent = 'Daily Total';
-//   trHeaderEl.appendChild(thTotalEl);
+//   // for(var store in salmonCookies){
+//   //   console.log(cookiePerHour);
+//   //   console.log(salmonCookies[store].cookiePerHour[0]);
+//     for(var hour in timeofDay){
+//       number += timeofDay[store].cookiePerHour[hour];
 
-//   tblEl.appendChild(trheaderEl);
+//   totalperHour();
 
-//   document.getElementById('main-content').appendChild(tblEl);
-// };
-// //creating the stores
-
-// var pike = new CookieTable('First and Pike',23, 65,6.3);
-// var seatac = new CookieTable('Seatac Airport',3,24,1.2);
-// var seattleCenter = new CookieTable('Seattle Center',11,38,3.7);
-// var alki = new CookieTable('Alki',2,16,4.6);
-// var capitolHill = new CookieTable('Capitol Hill',20,38,2.3);
-
-// //create the table
-
-// for (var store of salmonCookies) {
-//   store.render();
-// }
