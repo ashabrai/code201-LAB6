@@ -9,6 +9,8 @@
 var tblEl;
 var timeOfDay = ['6am', '7am','8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm'];
 var salmonCookies = [];
+var total = ['Totals'];
+
 
 //var dailyTotal= timeOfDay
 
@@ -50,6 +52,7 @@ CookieTable.prototype.calculateSales = function() {
 
 };
 
+
 function createTable() {
   //header row
   var tblEl = document.getElementById('table');
@@ -69,7 +72,13 @@ function createTable() {
   trHeaderEl.appendChild(thTotalEl);
 
   tblEl.appendChild(trHeaderEl);
-
+  
+}
+function createEndTotal(){
+ 
+  
+  
+  
   //document.getElementById('').appendChild(tblEl);
 }
 
@@ -97,7 +106,7 @@ CookieTable.prototype.render = function(){
   tblEl.appendChild(trStoreEl);
 
 };
-
+//for (var y = 0; y < cookiePerHour.length 
 
 createTable(); // this actually creates the table
 
@@ -122,8 +131,8 @@ var formEl = document.getElementById('main-form');
 
 formEl.addEventListener('submit', dataEntry);
 function dataEntry(event) {
-event.preventDefault();
-console.log(event.target);
+  event.preventDefault();
+  console.log(event.target);
   var name = event.target.Store.value;
   var minCustomer = event.target.Min.value;
   var maxCustomer = event.target.Max.value;
@@ -135,6 +144,39 @@ console.log(event.target);
   tableAdd.render();
 }
 clicked(formEl);
+
+
+//   function totalperHour(){
+//     var number = 0;
+//     console.log(timeOfDay);
+//     console.log(salmonCookies);
+//     for(var store of salmonCookies){
+//       number += salmonCookies[store].cookiePerHour[hour];
+//       console.log(total);
+//     }
+//     total.push(number);
+//     number = 0;
+    
+    
+    
+//     for(var store in salmonCookies){
+//       //console.log(cookiePerHour);
+//       console.log(salmonCookies[store].cookiePerHour[0]);
+//     for(var hour in timeofDay)  
+  
+
+//     for(var store of salmonCookies){
+//       number += salmonCookies[store].cookiePerHour[hour];
+//       console.log(total);
+//     }
+//     total.push(number);
+//     number = 0;
+//   }
+// }
+
+// totalperHour();
+
+
 
 
 // CookieTable.prototype.cats = function() {
