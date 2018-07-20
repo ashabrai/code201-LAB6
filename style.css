@@ -96,3 +96,16 @@
 .footer{
     padding-top: 50px;
 }
+.fishicon {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 5px;
+    float:left;
+    clear: both;
+}
+.followus {
+    position: relative;
+    padding-top: 55px;
+}

@@ -46,3 +46,19 @@ body {
     text-align: center;
     padding-left: 8px;
 }
+.fishicon {
+    position: relative;
+    box-sizing: border-box;
+    margin-top: 5spx;
+    margin-left: 40px;
+    padding: 5px;
+    float:left;
+    clear: both;
+}
+.followus {
+    margin-right: 800px;
+    margin-left: 5px;
+    padding: 15px;
+    
+
+}

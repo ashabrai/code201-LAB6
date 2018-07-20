@@ -29,7 +29,7 @@ CookieTable.prototype.generateRandom = function() {
 };
 //----------Calculate Customerss
 CookieTable.prototype.calculateCustomers = function() {
-  for (var a of timeOfDay) {
+  for (var k of timeOfDay) {
     var rando = this.generateRandom();
     this.customersPerHour.push(rando);
   }
