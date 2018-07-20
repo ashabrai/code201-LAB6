@@ -1,7 +1,6 @@
 
 body {
-    background-color: white;
-    font-display: helvetica;
+    background-image: url('https://images.duckduckgo.com/iu/?u=http%3A%2F%2Feloquentinnovations.com%2Fwp-content%2Fuploads%2F2015%2F07%2FBlue-White-Beach-Curtain-panels.jpg&f=1');
 }
 
 header {
@@ -22,7 +21,15 @@ table {
     color: black;
     border: solid 5px black;
     background-color: tan;
+
 }
+.userinput {
+    margin-left: 300px;
+    margin-bottom: 20px;
+    
+
+}
+
 h3 {
     text-align: center;
 }
@@ -30,3 +37,36 @@ h3 {
     border: 3px solid black;
     width: 40%;
 }    
+.salesSalmon {
+    margin-left: 350px;
+    margin-top: 10px;
+    
+}
+.datatitle{
+    text-align: center;
+    width: 700px;
+    height: 80px;
+    border: 8px;
+    border-color: black;
+    border-style: double;
+    padding-top: 30px;
+    margin-left:250px;
+    background-color: white;
+}
+.homebutton {
+    margin-left: 525px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 300px;
+    width: 200px;
+   
+}
+.refresh {
+    font-size: 30px;
+    margin-left: 370px;
+    color: orange;
+}
+.adddata {
+    color: orange;
+    font-size: 30px;
+}
