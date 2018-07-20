@@ -30,6 +30,7 @@ CookieTable.prototype.generateRandom = function() {
 //----------Calculate Customerss
 CookieTable.prototype.calculateCustomers = function() {
   for (var a of timeOfDay) {
+    console.log(a);
     var rando = this.generateRandom();
     this.customersPerHour.push(rando);
   }
