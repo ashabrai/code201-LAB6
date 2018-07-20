@@ -1,0 +1,56 @@
+'use strict'
+
+store.prototype.render = function() {
+
+    this.calculateSales();
+
+    //store row
+
+
+
+
+for (idx in hours){
+var tdDataEl = document.createElement('td')
+tdDataEl.textcontent = this.cookiesPerHour[idx];
+trStoreEl.appendchild(tdDataEl);
+
+
+
+
+function createTable() {
+    var tbEl = document.createElement('table'); //this is to get the element
+    var trHeaderEl = document.createElement('tr'); //this is creating the row header
+    var thBlankEl = document.createElement('th');
+    thBlankEl.textContent='Store Name';
+    trHeaderEl.appendchild(thBlankEl);
+    
+    for (var idx = 0; idx < this.hours.length; idx++){ // this  is creating the row
+    var tdEl = document.createElement('th');
+    thEl.textContent = this.hours[idx];
+    trHeaderEl.appendChild(thEl);
+    
+    }
+    var thTotalEl = document.createElement('th');
+    thTotalEl.textContent='Daily Total';
+    trHeaderEl.appendchild(thTotalEl);
+    
+
+for (idx in hours){
+var tdDataEl = document.createElement('td')
+tdDataEl.textcontent = this.cookiesPerHour[idx];
+trStoreEl.appendchild(tdDataEl);
+
+}
+
+    tbEl.appendChild(trHeaderEl);
+    document.getElementbyId('main-content').appendchild(tbEl);
+    
+    //Finally; run render() for each store we create!
+    for(var store of allStores) {
+        var trStoreEl = document.createElement('tr');
+    //store.render();
+
+        tbEl.appendchild(trStoreEl); //this is putting it on the table
+
+    }
+}
